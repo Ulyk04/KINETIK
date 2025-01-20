@@ -32,6 +32,7 @@ body{
     font-family: "Jersey 15" , serif;
     font-size: 30px;
     color: #101728;
+    cursor: pointer;
 }
 .desc-1{
     margin:300px 150px;
@@ -147,10 +148,64 @@ body{
     width: 500px;
     text-align: center;
 }
-
 .image-4{
     display: flex;
     justify-content:center;
     align-items: center;
     gap: 400px;
+}
+
+/* section - 5 
+
+It's empty cause code is simple
+
+*/
+
+/* footer */
+
+footer{
+    padding: 250px 0;
+}
+
+.title-foot img{
+    width: 100px;
+    height: 100px;
+}
+.title-foot{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.contact h1{
+    font-size: 60px;
+    color: #9340ff;
+}
+.contact p{
+    font-size: 25px;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-btn button{
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right , #9340ff , #ff3c5f);
+    border: none;
+    border-radius: 20px;
+    font-family: "Jersey 15" , serif;
+    font-size: 25px;
+    color: #101728;
+    cursor: pointer;
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
