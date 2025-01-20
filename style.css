@@ -209,3 +209,141 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+
+@media (min-width:350px){
+    .title-head img{
+        width: 50px;
+        height: 50px;
+    }
+    .title-head{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* section - 1*/
+    .desc-1 h1{
+        font-size: 40px;
+        text-align: center;
+    } 
+    .desc-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .image-1 img{
+        width: 300px;
+        height: 300px;
+    }
+    .image-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -200px;
+        margin-left: 125px;
+    }
+
+    .image-1::before {
+        content: '';
+        position: absolute;
+        top: 78%;
+        left: 47%;
+        width: 280px;
+        height: 280px;
+        border-radius: 80%;
+        background: radial-gradient(circle, rgba(147, 64, 255, 0.8), rgba(255, 60, 95, 0.1));
+        transform: translate(-50%, -50%);
+        z-index: 0; 
+        animation: shine 5s infinite;
+    }
+
+    /* section - 2 */
+
+    .desc-2 h1{
+        font-size: 40px;
+    }
+    .desc-2 p{
+        font-size: 30px;
+    }
+    .desc-2{
+        width: 300px;
+        margin: 0;
+    }
+
+    /* section - 3 */
+
+    .section-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .image-3 img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .image-3{
+        margin-top: -150px;
+        margin-right: 20px;
+    }
+    .desc-3 h1{
+        font-size: 40px;
+    }
+    .desc-3 p{
+        font-size: 30px;
+    }
+    .desc-3{
+        width: 300px;
+    }
+
+    /* section - 4 */
+
+    .image-4 img{
+        width: 300px;
+        height: 300px;
+    }
+    .image-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+    .desc-4{
+        width: 300px;
+    }
+    .image-4 h1{
+        font-size: 40px;
+    }
+    .image-4 p{
+        font-size: 30px;
+    }
+    /* section -5 */
+
+    .section-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* footer */
+
+    .title-foot img{
+        width: 50px;
+        height: 50px;
+    }
+    .title-foot h1{
+        font-size: 30px;
+    }
+    .title-foot{
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+       text-align: center;
+    }
+}
