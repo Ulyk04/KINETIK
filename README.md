@@ -3,7 +3,7 @@
 **KINETIK** This is a simple technology and review site
 
 ## 🚀 [View Live Website]
-https://ulyk04.github.io/S-S/
+https://ulyk04.github.io/KINETIK/
 
 ---
 
